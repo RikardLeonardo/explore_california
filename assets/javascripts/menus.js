@@ -30,8 +30,7 @@ function enableMenus() {
          $(this).unbind();
                };
                    });
-		if($('body').hasClass('no-js')==
-		false){
+		if($('body').hasClass('no-js')== false){
 	$('body').addClass('no-js');
 	};
 	};
